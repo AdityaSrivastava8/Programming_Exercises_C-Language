@@ -28,3 +28,11 @@ int main() {
 
     return 0;  // Successful program termination
 }
+
+/*
+Time Complexity: O(√n) 
+We only check divisors up to sqrt(n), instead of all numbers up to n.
+
+Space Complexity: O(1) 
+Only a constant amount of space is used (variables n, i, and isPrime).
+*/
